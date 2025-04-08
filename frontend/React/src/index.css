@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+
+
+@plugin "daisyui" {
+  themes: all;
+}
+
+.anchor-text {
+  color: #1b63b9;
+}
+
+/* Add these styles in your CSS or Tailwind config */
+.about-container {
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.about-container h1 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.about-container ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.about-container li {
+  margin-bottom: 8px;
+}
+/* 
+Date
+*/
+
+.footer-8 {
+  position: sticky;
+  margin-top: 90%;
+  font-weight: 538;
+  font-size: 1.5rem;
+  height: 130px;
+  bottom: -4px;
+  font-family: cursive;
+}
+
+@media (min-width:300px) and (max-width:768px) {
+  .footer-8 {
+    margin-top: 95%;
+    height: 88px;
+    font-size: 1.2rem;
+  }
+}
